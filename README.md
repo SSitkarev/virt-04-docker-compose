@@ -6,25 +6,9 @@
 
 Чтобы получить зачёт, вам нужно предоставить скриншот страницы с созданным образом из личного кабинета YandexCloud.
 
-Данное задание выполнить невозможно.
+Разобрался с проблемой подключения по SSH. Проблема была вовсе не с токеном, а в том, что в базовом debian11 нет ssh сервера.
 
-Самая свежая версия packer 1.9.1 не работает с яндексом - error initializing builder 'yandex': Unknown builder yandex
-
-Установил версию 1.5.0
-
-Сначала получил токен https://oauth.yandex.ru/authorize?response_type=token&client_id=блабла
-
-Инициализировал yc дважды, всё успешно.
-
-![Задание1](https://github.com/SSitkarev/virt-04-docker-compose/blob/main/img/1_1.png)
-
-packer конфиг файл 
-
-![Задание1](https://github.com/SSitkarev/virt-04-docker-compose/blob/main/img/1_2.png)
-
-Везде использую один и тот же токен, однако получаю ошибку при сборке имиджа
-
-![Задание1](https://github.com/SSitkarev/virt-04-docker-compose/blob/main/img/1_3.png)
+![Задание1](https://github.com/SSitkarev/virt-04-docker-compose/blob/main/img/1.png)
 
 ## Задача 2
 
