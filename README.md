@@ -38,7 +38,7 @@ packer конфиг файл
 
 Чтобы получить зачёт, вам нужно предоставить вывод команды "docker ps" , все контейнеры, описанные в docker-compose, должны быть в статусе "Up".
 
-![Задание3](https://github.com/SSitkarev/virt03_docker/blob/main/img/3.png)
+![Задание3](https://github.com/SSitkarev/virt-04-docker-compose/blob/main/img/3.png)
 
 ## Задача 4
 
@@ -50,4 +50,4 @@ packer конфиг файл
 
 скриншот работающего веб-интерфейса Grafana с текущими метриками, как на примере ниже.
 
-![Задание3](https://github.com/SSitkarev/virt03_docker/blob/main/img/4.png)
+![Задание3](https://github.com/SSitkarev/virt-04-docker-compose/blob/main/img/4.png)
